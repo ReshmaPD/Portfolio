@@ -9,7 +9,8 @@ p {
   line-height: 1.5;
 }
 body {
-  background-color: #ece4e4;
+  /* background-color: #ece4e4; */
+  background-color: #333131;
   margin: 0;
   position: relative;
   /* overflow-x: hidden; */
