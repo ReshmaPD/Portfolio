@@ -74,8 +74,46 @@ nav ul li {
     font-size: 0.5em;
     font-style: italic;
   }
+
+
 /* ====================================================MAIN COVER ENDS============================================== */
 /* ========================================================================================================= */
+/* send to almostgoodbut.css */
+.main1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    /* .main figure {
+      margin: 0;
+      background-position: center;
+      background-size: cover;
+      background: url(../img/project-3.jpg) no-repeat center;
+      width: 100%;
+      height: 350px;
+    } */
+    .media1 {
+        min-width: 0;
+        margin: 5px;
+     }
+     .about-pic {
+            width: 450px;
+            max-width: 100%;
+            max-height: 380px;
+            transition: 0.5s all ease;
+        }
+             /* img:hover {
+              transform: scale(0.97);
+              transition: 0.5s all ease; } */
+
+              .title {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Raleway', sans-serif;
+                color: #F27059;
+                margin: 5px; }
 /* @media screen and (max-width: 700px) { */
     /* ul {
         display: flex;
