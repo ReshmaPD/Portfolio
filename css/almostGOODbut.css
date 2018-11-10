@@ -18,7 +18,7 @@
     /* grid-template-rows: auto; */
     /* justify-content: center; */
     /* align-content: center;CULPRIT HEADDER HIDE */
-    grid-gap:3px;
+    grid-gap:4px;
     grid-template-areas: "header header"
                          "cover  cover"
                          "main   side "
@@ -44,30 +44,48 @@
 .main {
     grid-area: main;
     background-color: rgb(55, 129, 172);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .sidebar {
     grid-area: side;
     background-color: rgb(128, 203, 247);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     }
 
 .image-showcase-1{
     grid-area: image1;
     background-color:rgb(139, 16, 103);
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
 }
 
 .image-showcase-2{
     grid-area: image2;
     background-color:rgb(255, 153, 36);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .image-showcase-3{
     grid-area: image3;
     background-color:rgb(68, 131, 79);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .image-showcase-4{
     grid-area: image4;
     background-color:rgb(236, 193, 48);
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
 }
 .footer {
 background-color: rgb(209, 52, 31);
