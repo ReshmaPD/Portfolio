@@ -1,27 +1,98 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 699px) {
     .container{
         height:100vh;
         display: grid;
         /* grid-template-columns: 1fr; */
         /* grid-template-rows: 5vw 40vw 25vw 5vw; */
-        /* grid-template-rows: 15vw 400px repeat(6,minmax(300px,1fr)) 15vw; */
+        grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+        grid-template-rows: 15vw 400px repeat(6,minmax(300px,1fr)) 15vw;
         /* !important */
         /* grid-template-rows: auto; */
         /* grid-auto-rows: minmax(250px,auto); */
         /* justify-content: center; */
         /* align-content: center;CULPRIT HEADDER HIDE */
-        grid-gap:3px;
-        grid-template:
-               "header" minmax(15vw,auto)
-               "cover"  minmax(45vw,auto)
-               "main"  minmax(35vw,auto)
-               "side"  minmax(35vw,auto)
-               "image1" minmax(35vw,auto)
-               "image2" minmax(35vw,auto)
-               "image3" minmax(35vw,auto)
-               "image4" minmax(35vw,auto)
-               "footer" minmax(15vw,auto)
-               /1fr
+        /* grid-gap:3px; */
+        grid-template-areas:
+        "header"
+        "cover"
+        "main"
+        "side"
+        "image1"
+        "image2"
+        "image3"
+        "image4"
+        "footer";
 
     }
+
+.header{
+    grid-area: header;
+    background-color: blueviolet;
+}
+
+.main-cover {
+    grid-area: cover;
+    background-color: rgb(113, 137, 240);
+    object-fit: cover;
+
+    }
+
+.main {
+    grid-area: main;
+    background-color: rgb(55, 129, 172);
+}
+
+.sidebar {
+    grid-area: side;
+    background-color: rgb(128, 203, 247);
+    }
+
+.image-showcase-1{
+    grid-area: image1;
+    background-color:rgb(139, 16, 103);
+}
+
+.image-showcase-2{
+    grid-area: image2;
+    background-color:rgb(255, 153, 36);
+}
+
+.image-showcase-3{
+    grid-area: image3;
+    background-color:rgb(68, 131, 79);
+}
+.image-showcase-4{
+    grid-area: image4;
+    background-color:rgb(236, 193, 48);
+}
+.footer {
+background-color: rgb(209, 52, 31);
+grid-area: footer;
+
+}
+
+    .logo {
+        height: 36px;
+        margin-right: 20px;
+    }
+
+    nav ul li {
+        list-style: none;
+        align-items: center;
+        padding: 12px;
+        font-size: 16px;
+}
+.hero-hi {
+	display: flex;
+	justify-content:flex-start;
+	/* align-items: flex-end; */
+	margin-left: 5em;
+	padding: 0;
+}
+
+
+
+
+
+
 }
