@@ -1,10 +1,17 @@
+@supports (display: grid) {
+    .container {
+        display: grid;
+    }
+}
 .container{
     /* height:100%; */
     height:100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(autofit,minmax(280px,1fr)); */
+
     grid-auto-rows: minmax(250px,1fr);
-    grid-template-rows: 5vw 42vw repeat(3,minmax(450px,auto)) 5vw;
+    grid-template-rows: 5vw minmax(42vw,auto) repeat(3,minmax(450px,auto)) 5vw;
     /* grid-template-rows: 5vw 40vw 25vw[image1-start]auto[image1-end image2-start] [image2-end]5vw; */
 
     /* grid-template-rows: auto; */
@@ -21,6 +28,7 @@
     /* font-size: 25pt;DON'T MESS CULPRIT HEADDER HIDE */
 }
 
+
 .header{
     grid-area: header;
     background-color: blueviolet;
@@ -29,6 +37,8 @@
 .main-cover {
     grid-area: cover;
     background-color: rgb(113, 137, 240);
+    object-fit: cover;
+
     }
 
 .main {
