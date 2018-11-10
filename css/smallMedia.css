@@ -1,0 +1,27 @@
+@media screen and (max-width: 700px) {
+    .container{
+        height:100vh;
+        display: grid;
+        /* grid-template-columns: 1fr; */
+        /* grid-template-rows: 5vw 40vw 25vw 5vw; */
+        /* grid-template-rows: 15vw 400px repeat(6,minmax(300px,1fr)) 15vw; */
+        /* !important */
+        /* grid-template-rows: auto; */
+        /* grid-auto-rows: minmax(250px,auto); */
+        /* justify-content: center; */
+        /* align-content: center;CULPRIT HEADDER HIDE */
+        grid-gap:3px;
+        grid-template:
+               "header" minmax(15vw,auto)
+               "cover"  minmax(45vw,auto)
+               "main"  minmax(35vw,auto)
+               "side"  minmax(35vw,auto)
+               "image1" minmax(35vw,auto)
+               "image2" minmax(35vw,auto)
+               "image3" minmax(35vw,auto)
+               "image4" minmax(35vw,auto)
+               "footer" minmax(15vw,auto)
+               /1fr
+
+    }
+}
