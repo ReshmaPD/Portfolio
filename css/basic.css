@@ -1,16 +1,17 @@
-/* CSS Document */
 @charset "utf-8";
+/* CSS Document */
 /* ================================BASIC CSS================================================================== */
 body,
 p {
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 10pt;
   color: #333;
   line-height: 1.5;
 }
 body {
   /* background-color: #ece4e4; */
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
+  background-color: #fbca62;
   margin: 0;
   position: relative;
   /* overflow-x: hidden; */
@@ -22,14 +23,15 @@ li {
   color: #333;
 }
 a {
-  color: orange;
+  /* color: orange; */
+  color: rgb(247, 245, 243);
+  /* color: rgb(179, 179, 179); */
   text-decoration: none;
 }
 a:hover,
 a:focus {
   color: #3397db;
   text-decoration: none;
-  border-bottom: 2px solid #4d88f4;
   transition: 50ms;
 }
 a img {
@@ -37,13 +39,11 @@ a img {
 }
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3{
   font-family: Arial, Helvetica, sans-serif;
   /* margin: 0 0 20px; */
 }
+
 article,
 aside,
 canvas,
