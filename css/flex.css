@@ -119,10 +119,16 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 list-style: none;
+/* padding-right:2%; */
+padding-right:20%;
+padding-left:5%;
+
+
 }
 
 .about-container ul li{
-    padding:6%;
+    /* padding-left:12%; */
+    padding-left:35%;
     align-self:center;
 }
 
@@ -136,4 +142,44 @@ list-style: none;
                 margin: 5px;
          }
 
+/* ====================================================FOOTER STARTS============================================== */
+/* ========================================================================================================= */
+         .footer1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1%;
+        }
 
+        /* .logo {
+            height: 50px;
+            margin-right: 20px;
+            margin: 12px;
+            margin-bottom: 0;
+            align-self:center;
+          } */
+
+        .footer1 ul {
+            display: flex;
+            flex-direction: row;
+            /* justify-content: flex-end; */
+            /* align-items: center; */
+            padding-left: 45px;
+            margin-right: 11px;
+        }
+
+        .footer1 ul li {
+            list-style: none;
+            align-items: center;
+            padding-left: 45px;
+            font-size: 26px;
+        }
+        .copyright {
+            text-align: center;
+            padding: 20px;
+            color: #9a9a9a;
+            font-size: 11pt;
+          }
+/* ====================================================footer ENDS============================================== */
+/* ========================================================================================================= */
