@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="A portfolio page of front-end web developer.">
-    <link rel="stylesheet" href="fontawesome-free-5.5.0-web\css\all.css">
+    <!-- <link rel="stylesheet" href="fontawesome-free-5.5.0-web\css\all.css"> -->
+    <link rel="stylesheet" href="vendor/css/all.css">
     <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/flex.css">
@@ -49,27 +51,34 @@
 </section>
     <section class="main">
         <div class=”media1”>
-                <img class="about-pic" src="images\web-design-2188728_640.png">
+                <img class="about-pic" src="img\about-large.png"
+                        srcset="img\about-small.png 640w,
+                                img\about-medium.png 1280w,
+                                img\about-large.png 1920w"
+                        sizes="(max-width: 400px) 250px,
+                                (max-width: 1145px) 600px,
+                                700px">
               </div>
     </section>
 
-    <section class="sidebar">
+    <section id="about" class="sidebar">
             <div class="about-container">
             <h1>About me</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis ultrices sapien quis tincidunt. Nulla sollicitudin,
-         arcu nec facilisis rhoncus, diam arcu maximus sem,eu vestibulum felis nisi a risus. Sed leo ligula, fermentum vel turpis
-         sit amet, scelerisque cursus tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>I am a front end developer who believes in learning unlearning and relearning.I demonstrate skills
+                needed to create responsive and flexible web applications regardless of the platform.I am competent and
+                skilled in tasks that a developer typically performs and can Help you with coding and prototyping that fits into your app-design process.
+                </p>
          <ul>
-                        <li>  <span style="font-size: 3em; color: Tomato;">
+                        <li>  <span class="hm-icon">
                                         <i class="fab fa-html5"></i>
                                       </span>
                         </li>
                         <li>
-                                <span style="font-size: 3em; color: rgb(255, 210, 64);">
+                                <span class="js-icon">
                                 <i class="fab fa-js"></i></span>
                                 </li>
                         <li>
-                                <span style="font-size: 3em; color: rgb(27, 118, 179);">
+                                <span class="cs-icon">
                                 <i class="fab fa-css3-alt"></i> </span>
                         </li>
 
@@ -78,67 +87,87 @@
 </div>
     </section>
 
-    <section class="image-showcase-1">
+    <section id="portfolio" class="image-showcase-1">
             <div class="main1">
                         <div class=”media1”>
-                    <img class="about-pic" src="images\web-design-2188728_1280.png">
+                                <img class="about-pic" src="img\project-1-large.jpg"
+                                srcset="img\project-1-small.jpg 640w,
+                                        img\project-1-medium.jpg 1280w,
+                                        img\project-1-large.jpg 1920w"
+                                sizes="(max-width: 400px) 250px,
+                                        (max-width: 1145px) 600px,
+                                        700px">
                          </div>
             </div>
                   <div class="title">
-                        <h2>MEMORY GAME</h2>
+                        <h2><a href="#"> <i class="fas fa-link"> </i> memory game</a></h2>
                   </div>
     </section>
     <section class="image-showcase-2">
             <div class="main1">
             <div class=”media1”>
-                    <img class="about-pic" src="images\website-3374825_1920.jpg">
+                <img class="about-pic" src="img\project-2-large.jpg"
+                srcset="img\project-2-small.jpg 640w,
+                        img\project-2-medium.jpg 1280w,
+                        img\project-2-large.jpg 1920w"
+                sizes="(max-width: 400px) 250px,
+                        (max-width: 1145px) 600px,
+                        700px">
                   </div>
                 </div>
         <div class="title">
-                      <h2>ARCADE GAME</h2>
+                      <h2><a href="#"> <i class="fas fa-link"> </i> arcade game</a></h2>
                 </div>
     </section>
     <section class="image-showcase-3">
             <div class="main1">
             <div class=”media1”>
-                    <img class="about-pic" src="images\website-3374825_1280.jpg"
-                    srcset=  "img\web-design-380x380.png 380w,
-                              img\web-design-380x380.png 380w,
-                              images\web-design-2188728_1280.png 1280w"
-            sizes="(max-width: 600px) 240px,
-                   (max-width: 1145px) 380px,
-                   700px">
+                <img class="about-pic" src="img\project-3-large.jpg"
+                srcset="img\project-3-small.jpg 640w,
+                        img\project-3-medium.jpg 1280w,
+                        img\project-3-large.jpg 1920w"
+                sizes="(max-width: 400px) 250px,
+                        (max-width: 1145px) 600px,
+                        700px">
                   </div>
                 </div>
                 <div class="title">
-                      <h2>FEEDREADER TESTING</h2>
+                      <h2><a href="#"> <i class="fas fa-link"> </i> feedreader testing</a></h2>
                 </div>
     </section>
     <section class="image-showcase-4">
             <div class="main1">
                 <div class=”media1”>
-                    <img class="about-pic" src="images\webdesign-3411373_1280.jpg">
+                    <img class="about-pic" src="img\project-4-large.jpg"
+                        srcset="img\project-4-small.jpg 640w,
+                                img\project-4-medium.jpg 1280w,
+                                img\project-4-large.jpg 1920w"
+                        sizes="(max-width: 400px) 250px,
+                                (max-width: 1145px) 600px,
+                                700px">
                   </div>
         </div>
                 <div class="title">
-                      <h2>RESTAURANT REVIEW</h2>
+                      <h2><a href="#"> <i class="fas fa-link"> </i> restaurant reviews </a></h2>
                 </div>
     </section>
 <!--============================================================================================= -->
 
 <!--============================================================================================= -->
-    <footer class="footer">
+    <footer id="contact" class="footer">
                 <div class="footer1">
                                 <!-- <img class="logo" src="img\crystal-ball_1f52e.png"
                                  alt="heart"> -->
-                                 <h2>Ray D</h2>
+                                 <h3>Ray D</h3>
                                  <ul>
-                                                <li><a href="#"><i class="fas fa-at"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-slack"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-github-square"></i></a></li>
                                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                               </ul>
                 </div>
-                <div class="copyright">&copy; 2018 All Rights Reserved</div>
+                <div class="copyright">
+                Copyright (c) 2018 <a href="#"><strong>Portfolio</strong></a> All Rights Reserved.
+                </div>
     </footer>
 <!--============================================================================================= -->
 
