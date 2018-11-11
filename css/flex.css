@@ -11,17 +11,12 @@ nav {
 
 .logo {
     height: 50px;
-    /* margin-right: 20px; */
-    /* margin: 12px; */
     margin-bottom: 0;
-    /* align-self:center; */
   }
 
 nav ul {
 	display: flex;
 	flex-direction: row;
-	/* justify-content: flex-end; */
-	/* align-items: center; */
 	margin-right: 11px;
 }
 
@@ -44,8 +39,6 @@ nav ul li a {
 	display: flex;
 	justify-content: space-evenly;
 	align-items:center;
-	/* margin-left: 43em; */
-    /* padding: 12em; */
     padding: 0;
 	margin-left: 26em;
 
@@ -53,15 +46,11 @@ nav ul li a {
 }
 .hero-img {
     background: url(../img/header-bg.jpg) no-repeat left;
-    /* object-fit: cover; */
     height: 100%;
     background-size: cover;
 }
 .hero-hi ul {
     color: #1b1b1b;
-    /* position: absolute;
-    top: 26%;
-    left: 50%; */
     list-style-type: none;
     font-size: 3.5em;
     background: rgba(255, 255, 255, 0.9);
@@ -121,19 +110,12 @@ padding: 5%;
 .about-container ul {
 display: flex;
 flex-direction: row;
-/* justify-content: space-between; */
 justify-content:center;
 padding-right:8%;
 list-style: none;
-/* padding-right:2%; */
-/* padding-right:20%; */
-/* padding-left:5%; */
-
-
 }
 
 .about-container ul li{
-    /* padding-left:12%; */
     padding-left:35%;
     align-self:center;
 }
@@ -159,17 +141,11 @@ list-style: none;
                 justify-content: center;
                 align-items: center;
                 font-family: 'Raleway', sans-serif;
-                /* color: #F27059; */
                 color: rgb(255, 255, 255);
                 text-transform: uppercase;
                 margin: 5px;
          }
-         /* .title a{
-            color: orange;
-            color: rgb(247, 245, 243);
-            color: rgb(74, 74, 74);
-            text-decoration: none;
-          } */
+
 /* ====================================================FOOTER STARTS============================================== */
 /* ========================================================================================================= */
          .footer1 {
@@ -180,21 +156,12 @@ list-style: none;
             padding: 1%;
         }
 
-        /* .logo {
-            height: 50px;
-            margin-right: 20px;
-            margin: 12px;
-            margin-bottom: 0;
-            align-self:center;
-          } */
           .footer1 h3{
             color:#949494;
           }
         .footer1 ul {
             display: flex;
             flex-direction: row;
-            /* justify-content: flex-end; */
-            /* align-items: center; */
             padding-left: 45px;
             margin-right: 11px;
         }
@@ -205,7 +172,7 @@ list-style: none;
             padding-left: 45px;
             font-size: 3em;
         }
-        /* #83aac4; */
+
         .footer1 ul li a {
             color: #abc1cf;
             text-decoration: none;
@@ -214,13 +181,10 @@ list-style: none;
         .footer1 ul li a:focus {
           color: #627079;
           text-decoration: none;
-          /* border-bottom: 2px solid #4d88f4; */
         }
         .copyright {
             text-align: center;
             padding:15px 20px 0 20px ;
-            /* padding-bottom: 0px;
-            padding-top: 15px; */
             color: #9a9a9a;
             font-size: 10pt;
           }
