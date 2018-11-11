@@ -169,3 +169,12 @@ nav ul li {
 sizes="(max-width: 400px) 240px,
 (max-width: 900px) 450px,
 700px"
+
+
+.footer1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1%;
+}
