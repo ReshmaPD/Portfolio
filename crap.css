@@ -136,3 +136,36 @@ section {
     max-height: 450px;
   }
  }
+ /* from flex.css */
+ /* @media screen and (max-width: 700px) { */
+    /* ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    } */
+
+/*
+nav ul li {
+    list-style: none;
+    align-items: center;
+    padding: 12px;
+    font-size: 8px;
+}
+} */
+
+    /* .main figure {
+      margin: 0;
+      background-position: center;
+      background-size: cover;
+      background: url(../img/project-3.jpg) no-repeat center;
+      width: 100%;
+      height: 350px;
+    } */
+
+
+    srcset=  "img\web-design-380x380.png 380w,
+    img\web-design-kit_800x380.png 800w,
+    images\web-design-2188728_1280.png 1280w"
+sizes="(max-width: 400px) 240px,
+(max-width: 900px) 450px,
+700px"
