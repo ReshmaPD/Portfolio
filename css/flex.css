@@ -31,6 +31,10 @@ nav ul li {
 	padding-left: 29px;
 	font-size: 26px;
 }
+nav ul li a {
+    color: #ced7dd;
+    text-decoration: none;
+  }
 /* ====================================================HEADER ENDS============================================== */
 /* ========================================================================================================= */
 
@@ -117,11 +121,13 @@ padding: 5%;
 .about-container ul {
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+/* justify-content: space-between; */
+justify-content:center;
+padding-right:8%;
 list-style: none;
 /* padding-right:2%; */
-padding-right:20%;
-padding-left:5%;
+/* padding-right:20%; */
+/* padding-left:5%; */
 
 
 }
@@ -132,16 +138,38 @@ padding-left:5%;
     align-self:center;
 }
 
+.js-icon {
+    font-size: 4em;
+    color: rgb(255, 210, 64);
+}
+
+.hm-icon {
+    font-size: 4em;
+    color: Tomato;
+}
+
+.cs-icon {
+    font-size: 4em;
+    color: rgb(27, 118, 179);
+}
+
 .title {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 font-family: 'Raleway', sans-serif;
-                color: #F27059;
+                /* color: #F27059; */
+                color: rgb(255, 255, 255);
+                text-transform: uppercase;
                 margin: 5px;
          }
-
+         /* .title a{
+            color: orange;
+            color: rgb(247, 245, 243);
+            color: rgb(74, 74, 74);
+            text-decoration: none;
+          } */
 /* ====================================================FOOTER STARTS============================================== */
 /* ========================================================================================================= */
          .footer1 {
@@ -159,7 +187,9 @@ padding-left:5%;
             margin-bottom: 0;
             align-self:center;
           } */
-
+          .footer1 h3{
+            color:#949494;
+          }
         .footer1 ul {
             display: flex;
             flex-direction: row;
@@ -173,13 +203,26 @@ padding-left:5%;
             list-style: none;
             align-items: center;
             padding-left: 45px;
-            font-size: 26px;
+            font-size: 3em;
+        }
+        /* #83aac4; */
+        .footer1 ul li a {
+            color: #abc1cf;
+            text-decoration: none;
+          }
+        .footer1 ul li a:hover,
+        .footer1 ul li a:focus {
+          color: #627079;
+          text-decoration: none;
+          /* border-bottom: 2px solid #4d88f4; */
         }
         .copyright {
             text-align: center;
-            padding: 20px;
+            padding:15px 20px 0 20px ;
+            /* padding-bottom: 0px;
+            padding-top: 15px; */
             color: #9a9a9a;
-            font-size: 11pt;
+            font-size: 10pt;
           }
 /* ====================================================footer ENDS============================================== */
 /* ========================================================================================================= */
