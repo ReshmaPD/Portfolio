@@ -2,30 +2,34 @@
 /* ====================================================HEADER============================================== */
 /* ========================================================================================================= */
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1%;
 }
 
 .logo {
     height: 50px;
     /* margin-right: 20px; */
-    margin: 12px;
+    /* margin: 12px; */
+    margin-bottom: 0;
     /* align-self:center; */
   }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    /* align-items: center; */
+	display: flex;
+	flex-direction: row;
+	/* justify-content: flex-end; */
+	/* align-items: center; */
+	margin-right: 11px;
 }
 
 nav ul li {
-    list-style: none;
-    align-items: center;
-    padding: 12px;
-    font-size: 25px;
+	list-style: none;
+	align-items: center;
+	padding-left: 29px;
+	font-size: 26px;
 }
 /* ====================================================HEADER ENDS============================================== */
 /* ========================================================================================================= */
@@ -78,54 +82,58 @@ nav ul li {
 
 /* ====================================================MAIN COVER ENDS============================================== */
 /* ========================================================================================================= */
-/* send to almostgoodbut.css */
 .main1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-    /* .main figure {
-      margin: 0;
-      background-position: center;
-      background-size: cover;
-      background: url(../img/project-3.jpg) no-repeat center;
-      width: 100%;
-      height: 350px;
-    } */
     .media1 {
         min-width: 0;
         margin: 5px;
      }
-     .about-pic {
-            width: 450px;
+.about-pic {
+            width: 750px;
             max-width: 100%;
-            max-height: 380px;
+            min-height: 380px;
+            max-height: 400px;
             transition: 0.5s all ease;
-        }
-             /* img:hover {
+            }
+             img:hover {
               transform: scale(0.97);
-              transition: 0.5s all ease; } */
+              transition: 0.5s all ease; }
+.about-container {
+display: flex;
+flex-flow:column wrap;
+justify-content: center;
+align-items: center;
+padding: 5%;
+}
+.about-container p {
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size:12pt;
+    padding:2%;
+}
+.about-container ul {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+list-style: none;
+}
 
-              .title {
+.about-container ul li{
+    padding:6%;
+    align-self:center;
+}
+
+.title {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 font-family: 'Raleway', sans-serif;
                 color: #F27059;
-                margin: 5px; }
-/* @media screen and (max-width: 700px) { */
-    /* ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    } */
+                margin: 5px;
+         }
 
-/*
-nav ul li {
-    list-style: none;
-    align-items: center;
-    padding: 12px;
-    font-size: 8px;
-}
-} */
+
