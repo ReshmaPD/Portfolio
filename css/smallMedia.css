@@ -1,21 +1,9 @@
-@supports (display: grid) {
-    .container {
-        display: grid;
-    }
-}
 @media screen and (max-width: 700px) {
     .container{
         height:100vh;
         display: grid;
-        /* grid-template-columns: 1fr; */
-        /* grid-template-rows: 5vw 40vw 25vw 5vw; */
         grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
         grid-template-rows: 60px 500px repeat(6,minmax(450px,1fr)) 140px;
-        /* !important */
-        /* grid-template-rows: auto; */
-        /* grid-auto-rows: minmax(250px,auto); */
-        /* justify-content: center; */
-        /* align-content: center;CULPRIT HEADDER HIDE */
         grid-gap:3px;
         grid-template-areas:
         "header"
@@ -54,34 +42,27 @@
 
 .image-showcase-1{
     grid-area: image1;
-    /* background-color:rgb(139, 16, 103); */
     background-color:#ff8d8d;
 
 }
 
 .image-showcase-2{
     grid-area: image2;
-    /* background-color:rgb(255, 153, 36); */
-    /* background-color:rgb(255, 255, 255); */
     background: #40666f;
 
 }
 
 .image-showcase-3{
     grid-area: image3;
-    /* background-color:rgb(68, 131, 79); */
     background-color: #17366c;
 
 }
 .image-showcase-4{
     grid-area: image4;
-    /* background-color:rgb(236, 193, 48); */
-    background-color: #01f3c1;
+    background-color: #145947
 
 }
 .footer {
-/* background-color: rgb(209, 52, 31); */
-/* background-color:#bdcbd4; */
 background-color:#313e51;
 grid-area: footer;
 
@@ -89,21 +70,18 @@ grid-area: footer;
 
     .logo {
         height: 36px;
-        /* margin-right: 20px; */
         margin-bottom: 0;
     }
 
     nav ul li {
         list-style: none;
         align-items: center;
-        /* padding-left: 18px; */
         font-size: 16px;
         padding-left: 12px;
 }
 .hero-hi {
 	display: flex;
 	justify-content:flex-start;
-	/* align-items: flex-end; */
 	margin-left: 5em;
 	padding: 0;
 }
@@ -115,6 +93,11 @@ padding:2%;
 padding-right:40%;
 padding-left:5%;
 }
+
+h2 {
+    margin: 0 0 20px 0;
+
+  }
 .footer1 ul {
     padding-left: 33px;
 }
@@ -122,8 +105,6 @@ padding-left:5%;
     padding-left: 30px;
     font-size: 24px;
 }
-
-
 
 
 }
