@@ -1,8 +1,8 @@
-@supports (display: grid) {
+/* @supports (display: grid) {
     .container {
         display: grid;
     }
-}
+} */
 @media screen and (min-width: 700px) {
 .container{
     height:100vh;
@@ -12,7 +12,7 @@
     grid-template-rows: 90px minmax(42vw,auto) repeat(3,minmax(450px,auto)) 180px;
     grid-gap:4px;
     grid-template-areas: "header header"
-                         "cover  cover"
+                         "cover1  cover1"
                          "main   side "
                          "image1 image2"
                          "image3 image4"
@@ -25,18 +25,18 @@
 }
 
 .main-cover {
-    grid-area: cover;
+    grid-area: cover1;
     background-color: rgb(113, 137, 240);
-    object-fit: cover;
+    /* object-fit: cover; */
 
     }
 
 .main {
     grid-area: main;
     background-color: rgb(55, 129, 172);
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
 .sidebar {
