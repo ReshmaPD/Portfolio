@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* ===================================================MOD CSS================================== */
+/**
+ * Content Styles
+ */
+
+/* This 'lil nugget makes our images responsive. */
+.img-fluid {
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 70%;
+    /* margin:15px; */
+  }
+
+
+  /**
+   * Layout Styles
+   */
+
+  /* Standard container, nothing fancy here. */
+  /* .container {
+    margin: 0 auto;
+    padding: 0 24px;
+    max-width: 700px;
+  } */
+
+  /* The media objects will just stack by default with some y-axis margins. */
+  .media {
+    margin: 24px 0;
+  }
+
+  /* At a screen width of 600px or above, we'll use CSS grids for layout. */
+  @media screen and (min-width: 600px) {
+    .media {
+      display: grid;
+        align-items: center; /* Flexbox align/justify, etc. props. work in grid too. */
+        grid-gap: 24px; /* Just our gutter. */
+        grid-template-areas: "image content"; /* We can reference these later... */
+        grid-template-columns: 1fr 2fr;
+      /* margin: 64px 0; */
+       /* Larger margins for larger screens. */
+    }
+
+    .media:nth-child(even){
+      grid-template-areas: "content image"; /* See how we swapped these? */
+      grid-template-columns: 2fr 1fr; /* And these? */
+    }
+
+    .media__image {
+      grid-area: image; /* This belongs in our image area, defined above...*/
+    }
+
+    .media__content {
+      grid-area: content; /* This belongs in our content area, defined above...*/
+    }
+  }
+/* ===================================================GRID CSS================================== */
+
