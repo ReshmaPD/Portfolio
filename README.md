@@ -59,9 +59,9 @@ No such external dependencies are required to Run the application.All assets are
 ### Learning Resources
 
 * [Flexible Grids](https://rachelandrew.co.uk/archives/2016/04/12/flexible-sized-grids-with-auto-fill-and-minmax/)
+* [Media Queries](https://robots.thoughtbot.com/concise-media-queries-with-css-grid)
 * [CSS-tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-* [Media Queries](https://robots.thoughtbot.com/concise-media-queries-with-css-grid)
 
 
 ## Technologies
