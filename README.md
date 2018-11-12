@@ -14,7 +14,7 @@
 
 ## About the Application
 
-A CSS grids and Flexbox based Portfolio Webpage, that is responsive across a range of multimedia devices such as smartphone , tablets and desktop.
+A CSS grid and Flexbox based Portfolio Webpage, that is responsive across a range of multimedia devices such as smartphone , tablets and desktop.
 
 
 ## Application dependencies
