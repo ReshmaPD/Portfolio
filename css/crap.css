@@ -212,3 +212,11 @@ a:focus {
     font-size: 0.4em;
     font-style: italic;
   }
+
+  @supports (display: grid) {
+    .container {
+        display: grid;
+    }
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Slab');
