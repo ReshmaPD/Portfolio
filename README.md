@@ -1,52 +1,76 @@
-# Arcade Game Project
+**Edited and previewed using [dillinger](https://dillinger.io/)**
+
+# Porfolio Project
 
 ## Table of Contents
-* [About Game](#About-game)
-* [How to play](#How-to-play)
-* [Resources](#Resources)
-* [Technologies](#Technologies)
-* [Game Functionalities](#Game-functionalities)
-* [Game dependencies](#Game-dependencies)
+* [About the Application](#about-the-application)
+* [Application dependencies](#application-dependencies)
+* [How to Run the Application](#how-to-run-the-application)
+* [Application Functionalities](#application-functionalities)
+* [Resources](#resources)
+* [Technologies](#technologies)
 * [Contributing](#contributing)
 
-## About-game
 
-A Classic Arcade game look , which consists of a Player and three Enemy bug.The goal of the Player is to reach the water, while avoid colliding into any of the enemy bugs.
+## About the Application
 
-## How to play
+A CSS grids and Flexbox based Portfolio Webpage, that is responsive across a range of multimedia devices such as smartphone , tablets and desktop.
 
-Download the folder contents and open the index.html file
-* Steps to play the game
-    1]To Move the Player across the game board use Arrow keys Or W A S D keys.
-    2]Bugs move across the game board in varying speed, avoid colliding with them.
-    3]You Score a point if you meet your goal of reaching the water at the top of the game board.
-    4]You lose a point if you hit any of the moving bugs.
-    5]To win the game, score five points.
-    6]If bugs catch you ten times, you lose the game.
-    7]You can restart the game by clicking on the restart button which will reset the whole game.
 
-    Challenge Yourself by avoid getting caught by bugs while you reach the water at the top to win the game.
-    Good luck!
+## Application dependencies
+
+No such external dependencies are required to Run the application.All assets are locally available and works offline,removing the need for an active internet connection.
+
+
+## How to Run the Application
+
+ 1. Download the zip folder and unzip it.
+ 2. _Open_ the main folder and _locate_ the **index.html** file.
+ 3. _Open_ the **index.html** file in your preferred **_browser_**
+
+
+## Application Functionalities
+
+#### 1. CSS grids
+* Uses the grid based layout that is reponsive.
+* Uses concise media queries to support our grid layout on both large and small devices.
+
+#### 2. CSS flexbox
+* Uses the Flexible layout that is reponsive.
+
+#### 3. Semantic HTML
+* Semantic markup in HTML that introduces meaning to the web page.
+
+#### 4. Responsive Images
+* Using srcset and sizes attributes, our image are responsive.
+
+
+## Resources
+
+#### Assests
+
+* [Images](https://pixabay.com/en/)
+* [Favicon](https://gauger.io/fonticon/)
+* [Fontawesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Logo](https://gauger.io/fonticon/)
+
+
+### Learning Resources
+
+* [Flexible Grids](https://rachelandrew.co.uk/archives/2016/04/12/flexible-sized-grids-with-auto-fill-and-minmax/)
+* [CSS-tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+* [Media Queries](https://robots.thoughtbot.com/concise-media-queries-with-css-grid)
+
 
 ## Technologies
 
-HTML5
-CSS
-Visual Studio Code Editor used
-
-## Game-functionalities
-
-1]Captures the number of times the player reaches the top.
-2]Captures the number of times the player and bugs collide.
-3]Upon collison between player and bugs, the players position is reset to initial.
-4]Upon finishing the game,the player is shown a modal which displays the score and no of times caught by bugs.
-5]In the modal message player can choose to play the game again or close it.
-6]Player can restart the game at any time using the restart button on the screen which resets the game.
-
-## Game-dependencies
-
-No such external dependencies are required to play. All assets are locally available and works offline,removing the need for an active internet connection.
+* Visual Studio Code Editor
+* HTML
+* CSS
 
 ## Contributing
-
 Any suggestions are welcome.
+
+
