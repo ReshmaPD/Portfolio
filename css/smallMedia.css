@@ -7,7 +7,7 @@
         grid-gap:3px;
         grid-template-areas:
         "header"
-        "cover"
+        "cover1"
         "main"
         "side"
         "image1"
@@ -24,10 +24,8 @@
 }
 
 .main-cover {
-    grid-area: cover;
+    grid-area: cover1;
     background-color: rgb(113, 137, 240);
-    object-fit: cover;
-
     }
 
 .main {
