@@ -1,12 +1,12 @@
 # Arcade Game Project
 
 ## Table of Contents
-* [About Game](#About-game)
-* [How to play](#How-to-play)
+* [About Game](#About-app)
+* [How to play](#How-to-run)
 * [Resources](#Resources)
 * [Technologies](#Technologies)
-* [Game Functionalities](#Game-functionalities)
-* [Game dependencies](#Game-dependencies)
+* [Game Functionalities](#App-functionalities)
+* [Game dependencies](#App-dependencies)
 * [Contributing](#contributing)
 
 ## About-game
@@ -45,7 +45,7 @@ Visual Studio Code Editor used
 
 ## Game-dependencies
 
-No such external dependencies are required to play. All assets are locally available and works offline,removing the need for an active internet connection.
+No such external dependencies are required to . All assets are locally available and works offline,removing the need for an active internet connection.
 
 ## Contributing
 
