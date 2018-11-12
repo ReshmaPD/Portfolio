@@ -3,7 +3,7 @@
 /* ================================BASIC CSS================================================================== */
 body,
 p {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:'Lato',Arial, Helvetica, sans-serif;
   font-size: 10pt;
   color: #333;
   line-height: 1.5;
@@ -34,7 +34,7 @@ a img {
 h1,
 h2,
 h3{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 article,
